@@ -3,7 +3,7 @@
   
     "name": "FBNoTrend",
     "description": "FBNoTrend",
-    "version": "1.0",
+    "version": "0.20171119",
   
     "content_scripts": [
         {
