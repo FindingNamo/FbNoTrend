@@ -2,7 +2,7 @@
     "manifest_version": 2,
   
     "name": "FBNoTrend",
-    "description": "FBNoTrend",
+    "description": "Removes the trending news section on Facebook",
     "version": "0.2017.11.19",
   
     "content_scripts": [
