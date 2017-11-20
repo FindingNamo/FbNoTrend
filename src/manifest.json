@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "FBNoTrend",
+    "description": "FBNoTrend",
+    "version": "1.0",
+  
+    "content_scripts": [
+        {
+          "matches": ["https://www.facebook.com/*"],
+          "js": ["fbNoTrend.js"]
+        }
+      ],
+    "permissions": [
+      "activeTab",
+      "webNavigation"
+    ]
+}  
