@@ -3,7 +3,7 @@
   
     "name": "FBNoTrend",
     "description": "Removes the trending news section on Facebook",
-    "version": "0.2017.11.19",
+    "version": "0.2017.11.20",
   
     "content_scripts": [
         {
