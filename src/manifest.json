@@ -3,12 +3,16 @@
   
     "name": "FBNoTrend",
     "description": "FBNoTrend",
-    "version": "0.20171119",
+    "version": "0.2017.11.19",
   
     "content_scripts": [
         {
           "matches": ["https://www.facebook.com/*"],
           "js": ["fbNoTrend.js"]
         }
-      ]
+      ],
+      
+    "icons": { "16": "fbNoTrend16.png",
+      "48": "fbNoTrend48.png",
+      "128": "fbNoTrend128.png" }
 }  
