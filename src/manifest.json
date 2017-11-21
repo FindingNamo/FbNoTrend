@@ -7,6 +7,11 @@
     "icons": { "16": "fbNoTrend16.png",
       "48": "fbNoTrend48.png",
       "128": "fbNoTrend128.png" },
+	
+	"permissions": [
+    "webNavigation",
+	"activeTab"
+   ],
   
   "background": {
     "persistent": false,
