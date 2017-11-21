@@ -11,5 +11,7 @@ function removeElementById(id) {
 
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-   removeElementById(fbTrendingDivId);
+      if(request.event === "onCompleted"){
+        removeElementById(fbTrendingDivId);
+      }
   });
