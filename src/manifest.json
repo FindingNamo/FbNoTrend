@@ -3,16 +3,20 @@
   
     "name": "FBNoTrend",
     "description": "Removes the trending news section on Facebook",
-    "version": "0.2017.11.20",
-  
-    "content_scripts": [
-        {
-          "matches": ["https://www.facebook.com/*"],
-          "js": ["fbNoTrend.js"]
-        }
-      ],
-      
+    "version": "0.2017.11.21",
     "icons": { "16": "fbNoTrend16.png",
       "48": "fbNoTrend48.png",
-      "128": "fbNoTrend128.png" }
+      "128": "fbNoTrend128.png" },
+  
+  "background": {
+    "persistent": false,
+    "scripts": ["fbNoTrendEvent.js"]
+  },
+    
+   "content_scripts": [
+    {
+	  "matches": ["https://www.facebook.com/*"],
+      "js": ["fbNoTrendContent.js"]
+    }
+  ]
 }  
