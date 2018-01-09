@@ -5,7 +5,7 @@ const fbTrendingDivId = "pagelet_trending_tags_and_topics";
 function hideElementById(id) {
     const style = document.createElement("style");
     style.type = "text/css";
-    style.innerHTML = `#${id} { display: none !important }";
+    style.innerHTML = `#${id} { display: none !important }`;
     document.getElementsByTagName("head")[0].appendChild(style);
 }
 
